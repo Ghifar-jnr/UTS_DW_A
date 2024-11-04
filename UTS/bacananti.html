@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Baca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo" width="120px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="mj">Lovel.ID</a></li>
+                    <li><a>/</a></li>
+                    <li><a href="index.html" class="menu">Dashboard</a></li>
+                    <li><a>/</a></li>
+                    <li><a href="#" class="menu">Daftar Novel Favorit</a></li>
+                    <li><a>/</a></li>
+                    <li><a href="baca.html" class="menu">Baca Sekarang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="contentbacananti">
+        <h1>Novel Favorit dan Baca Nanti Novel</h1>
+        <div class="line"></div>
+        <div class="ha">
+        <h2>Masukkan Nama</h2>
+        </div>
+        <div id="session-container">
+            <div class="input-group">
+            <input type="text" id="namaPengguna" class="input-nama" required="required"/>
+            <label class="label-nama">Nama</label> <br>
+            <button id="btnSimpanNama">Simpan Nama</button>
+            </div>
+            <h3 id="salamPengguna"></h3>
+        </div>
+        <div class="line"></div>
+        <div class="hi">
+        <h2>Menambahkan Novel</h2>
+        </div>
+        <form id="form-tambah-novel">
+            <div class="input-group2">
+            <input type="text" id="judul" class="input-nama" required="required" />
+            <label class="label-nama">Judul Novel</label>
+            </div>
+            <div class="btn-lov">
+            <button type="submit">Tambah novel</button>
+            </div>
+        </form>
+        <div class="line"></div>
+        <div class="hu">
+        <h2>Baca Nanti</h2>
+        </div>
+        <div id="daftar-novel"></div>
+        <div class="line"></div>
+        <div class="he">
+        <h2>Novel Favorit</h2>
+        </div>
+        <div id="novel-favorit"></div>
+    </section>
+    <button class="btn-to-top" onclick="btntop();"><img  width="10" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/long-arrow-up.png"></button>
+    <footer>
+        <div class="cp">
+            <h1><p>&copy; 2024 Ghifar Januar Abdillah. All Rights Reserved.</p></h1>   
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
